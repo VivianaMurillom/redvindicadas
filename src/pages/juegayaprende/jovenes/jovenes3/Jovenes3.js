@@ -7,7 +7,7 @@ import Submenuj from '../../../../components/sub-menu-jovenes/Submenuj';
 import {getAllNoGame} from '../../../../RecursosJovenes';
 import Card13 from '../../../../components/cards13/Card13';
 
-function Kitfem(){
+function Jovenes3(){
 
 const allNoGame=getAllNoGame();
 
@@ -88,4 +88,4 @@ const allNoGame=getAllNoGame();
     );
 }
 
-export default Kitfem;
+export default Jovenes3;

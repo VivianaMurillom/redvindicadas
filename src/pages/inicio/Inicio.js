@@ -24,7 +24,7 @@ function Inicio(){
                 <h1 className='title-presen'>¿Qué es <span>REDVINDICADAS</span>?</h1>
                 <p>Es la propuesta académica del programa Tech Power de Kuepa Edutech en donde se busca visibiliar y exponer de manera didáctica y lúdica los conceptos de igualdad de género, feminismo y sexualidad sin tabú.</p>
                 <div className='contacto-present'>
-                    <p><span>Contáctenos:</span> redvindicadas@gmail.com</p>
+                    <p className='text-center'><span>Contáctenos:</span> redvindicadas@gmail.com</p>
                 </div>
             </section>
 

@@ -16,7 +16,7 @@ function NavGeneral(){
 
                 <div className="card-container">
                     <div className="card-border">
-                        <div className="card ">
+                        <div className="card">
                             <img className="img-card" src={book} alt="" />
                             <h2 className="h2">Recursos</h2>
                             <Link to="/juegayaprende/recursos-adultos"><img className="icondescarga" src={downloads} alt=""/></Link>
@@ -41,14 +41,14 @@ function NavGeneral(){
                         <div className="card">
                             <img className="img-card" src={compu} alt=""/>
                                 <h2 className="h2">Recursos</h2>
-                                <a href="recursos-adultos.html"><img className="icondescarga" src={downloads} alt=""/></a>
+                                <a href="/juegayaprende/recursos-jovenes1"><img className="icondescarga" src={downloads} alt=""/></a>
                         </div>
                     </div>
                     <div className="card-border">
                         <div className="card">
                             <img className="img-card" src={dados} alt=""/>
                                 <h2 className="h2">Juegos</h2>
-                                <a href="juegos-adultos.html"><img className="icondescarga" src={downloads} alt=""/></a>
+                                <a href="/juegayaprende/juegos-jovenes"><img className="icondescarga" src={downloads} alt=""/></a>
                         </div>
                     </div>
                 </div>
