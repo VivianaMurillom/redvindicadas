@@ -1,8 +1,8 @@
-import book from "../../pages/juegayaprende/img/book.svg"
-import play from "../../pages/juegayaprende/img/juego.svg"
 import downloads from "../../pages/juegayaprende/img/icon-descarga.svg"
-import dados from "../../pages/juegayaprende/img/dados.svg"
-import compu from "../../pages/juegayaprende/img/computador.svg"
+import dados from "../../components/main-menu-jovenes/feminismo(1).png"
+import compu from "../../components/main-menu-jovenes/feminismo.png"
+import libro from "../../pages/juegayaprende/img/libro1.png"
+import rompecabeza from "../../pages/juegayaprende/img/image62.png"
 import {Link} from "react-router-dom"
 import "./NavGeneral.css"
 import "../../index.css"
@@ -17,7 +17,7 @@ function NavGeneral(){
                 <div className="card-container">
                     <div className="card-border">
                         <div className="card">
-                            <img className="img-card" src={book} alt="" />
+                            <img className="img-card" src={libro} alt="" />
                             <h2 className="h2">Recursos</h2>
                             <Link to="/juegayaprende/recursos-adultos"><img className="icondescarga" src={downloads} alt=""/></Link>
                         </div>
@@ -25,7 +25,7 @@ function NavGeneral(){
 
                     <div className="card-border">
                         <div className="card">
-                            <img className="img-card" src={play} alt="" />
+                            <img className="img-card" src={rompecabeza} alt="" />
                             <h2 className="h2">Juegos</h2>
                             <Link to="/juegayaprende/juegos-adultos"><img className="icondescarga" src={downloads} alt=""/></Link>
                         </div>

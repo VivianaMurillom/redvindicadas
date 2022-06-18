@@ -1,7 +1,7 @@
 import "./NavAdultos.css"
-import book from "../../pages/juegayaprende/img/book.svg"
 import linea from "../../pages/adultos/img/adul-linea.svg"
-import play from "../../pages/juegayaprende/img/juego.svg"
+import libro from "../../pages/juegayaprende/img/libro1.png"
+import rompecabeza from "../../pages/juegayaprende/img/image62.png"
 import { Link } from "react-router-dom";
 function NavAdult(){
     return(
@@ -11,12 +11,12 @@ function NavAdult(){
             </div>
             <div className="barnav-recursosyjuegos">
                     <div className="barnav-interna">
-                        <img className="img-menu" src={book} alt=""/>
+                        <img className="img-menu" src={libro} alt=""/>
                         <Link className="button-adult" to="/juegayaprende/recursos-adultos">Recursos</Link>
                     </div>
                 <img className="imglinea-nav" src={linea} alt=""/>
                     <div className="barnav-interna">
-                            <img className="img-menu" src={play} alt=""/>
+                            <img className="img-menu" src={rompecabeza} alt=""/>
                             <Link className="desactive" to="/juegayaprende/juegos-adultos">Juegos</Link>
                     </div>
             </div>
