@@ -1,0 +1,12 @@
+.content-middle-stickers{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.card-sticker{
+    width: 18rem;
+}

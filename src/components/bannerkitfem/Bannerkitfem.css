@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	background-color: FFF8F8;}
+
+.bannerkitfem{
+    background-image:url("../../icons/iconsKit/bannner.svg");
+	background-size: 100%;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 8ch;
+	position: relative;
+	width: 100%;
+	}
+.bannerkitfem h2{
+    font-weight: 800;
+	font-size: 2rem;
+	color: rgba(70, 254, 94, 0.524);
+	text-align: center;
+    width: 80%;
+}
+
+.vector-left-banner {
+    width: 10%;
+	position: absolute;
+	left: 0%;
+    top: 0%;
+}
+.vector-rigth-banner{
+    width: 10%;
+	position: absolute;
+	right: 0;
+	bottom: 0%;
+}
+/*Resolución de tablet*/
+@media screen and (min-width: 768px){
+	.bannerkitfem{
+		padding: 5ch;
+		}
+}
+/*RESOLUCION DE CELULAR*/
+@media only screen and (max-width: 600px) {
+	.bannerkitfem {
+		padding: 1ch;
+	}
+	.bannerkitfem h2{
+		font-weight: 800;
+		font-size: 1.2rem;
+		color: rgba(70, 254, 94, 0.524);
+		text-align: center;
+		width: 80%;
+	}
+}

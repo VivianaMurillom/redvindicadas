@@ -25,6 +25,7 @@ nav li:hover > ul{
 li{
     font-size: 20px;
     padding: .2rem;
+    z-index: 10;
 }
 
 #check-menu{

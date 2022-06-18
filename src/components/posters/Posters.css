@@ -1,0 +1,120 @@
+/*TITTLE CONTENT*/
+.section-tittle {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section-tittle h2 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: #C75C7E;
+    border-bottom: 1px solid rgba(26, 25, 25, 0.459);
+    padding: 0.6rem;
+    margin-bottom: 2.5rem;
+}
+
+/*PHOTO CONTENT*/
+
+.content-kit-rigth {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.content-kit-rigth img {
+    width: 50%;
+}
+
+.content-kit-left {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content-kit-left img {
+    width: 50%;
+}
+
+.content-middle-posters img:hover {
+    filter: brightness(70%);
+}
+
+.content-middle-posters {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content-middle-posters img {
+    flex-wrap: wrap;
+    width: 30%;
+    margin-bottom: 3%;
+    height: 300px;
+}
+
+.content-posters-general {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*DOWNLOAD BUTTON*/
+
+#button-orange{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.cssbuttons-io-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 500;
+	font-size: 12px;
+	padding: 0.8em 1.5em 0.8em 1.2em;
+	color: white;
+	background: #13ad41;
+	border: none;
+	letter-spacing: 0.05em;
+	border-radius: 20em;
+    margin-bottom: 4rem;
+   }
+   .cssbuttons-io-button svg {
+	margin-right: 8px;
+   }
+   .cssbuttons-io-button:hover {
+	box-shadow: 0 0.7em 1.7em -0.5em #7523dabe;
+   }
+   .cssbuttons-io-button:active {
+	box-shadow: 0 0.3em 1em -0.5em #1900fbbe;
+   }
+   
+   /*Resolución de tablet*/
+@media screen and (max-width: 1000px){
+	
+}
+/*RESOLUCION DE CELULAR*/
+@media only screen and (max-width: 700px) {
+    .content-middle-posters {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 0%;
+        justify-content: space-between;
+    }
+    .content-middle-posters img {
+        width: 50%;
+        margin-bottom: 1.5%;
+        height: 100px;
+    }
+    .section-tittle h2 {
+        padding: 0.6rem;
+        margin-bottom: 1.5%;
+    }
+}

@@ -19,7 +19,7 @@ function Navbar(){
                         <li><Link to='/lineas' className='item'>Líneas de emergencia</Link></li>
                     </ul>
                 </li>
-                <li><Link to='/kit-fem' className='item'>Kit Fem</Link></li>
+                <li><Link to='/kitfem' className='item'>Kit Fem</Link></li>
             </ul>
         </nav>
     );
