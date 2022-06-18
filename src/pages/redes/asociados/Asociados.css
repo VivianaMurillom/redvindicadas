@@ -1,0 +1,141 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+}
+.contenedor_2, .contenedor_3 {
+    display: flex;
+    flex-direction: column;
+}
+.asociados a:hover {
+    background-color: rgba(255, 103, 27, 70%);
+    color: #FFF8F8;
+}
+.d-titulolineas h1 {
+    background-image: url(../../images_d/vectortitulo-lineasemer.svg);
+    color: #FFFF;
+    text-align: center;
+    padding: 2rem;
+    max-width: 2600px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.asociados-titulos {
+    text-align: center;
+    color: #3B0057;
+    text-shadow: 2px 1px 5px rgb(126, 126, 126);
+}
+
+.visibilidad-asociados {
+    text-align: center;
+    border-bottom: #3B0057 5px solid;
+    padding: 20px;
+}
+
+.d-vectores-asociados img {
+    width: 100px;
+}
+
+.vector-2 {
+    float: right;
+}
+
+.d-container {
+    border: #A12161 4px solid;
+    width: 250px;
+    text-align: center;
+    margin: 50px 20px;
+    padding: 15px;
+    background-color: #c75c7e33;
+    box-shadow: 10px 15px #A12161;
+    margin: 25% 8%;
+    color: #000;
+}
+
+.d-container h1 {
+    font-size: 20px;
+}
+
+.d-container img,
+a,
+p {
+    padding: 15px;
+    font-weight: 600;}
+
+.d-container img {
+    width: 200px;
+}
+
+.d-vectores-asociados-2 {
+    display: flex;
+}
+
+.vector-dos {
+    float: right;
+}
+
+.d-container a {  
+    color: #3B0057;
+}
+.d-container a:visited {
+    color: #3B0057;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px) {
+    .d-container {
+        margin: 10% 34%;
+        text-align: center;
+    }
+
+    .d-vectores-asociados img {
+        width: 200px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .contenedor, .contenedor_2, .contenedor_3 {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .d-container {
+        margin: 8% 5%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .d-container {
+        margin: 5% 7%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1900px) {
+
+    .d-container {
+        margin: 5% 10%;
+        text-align: center;
+    }
+}
+.form-aso {
+    background-color: #3B0057;
+    color: #FFF8F8;
+    padding: 10px;
+    border-radius: 20%;
+    box-shadow: rgb(156, 156, 156) 2px 2px 2px;
+}
+
+.form-aso:hover {
+    background-color: #A12161;
+    border: #A12161 2px solid;
+    padding: 10px;
+    border-radius: 20%;
+    cursor: pointer;
+}

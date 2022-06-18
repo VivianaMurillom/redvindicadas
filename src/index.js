@@ -17,6 +17,10 @@ import Kitfem2 from './pages/kitfem/Kitfem2';
 import Kitfem3 from './pages/kitfem/Kitfem3';
 import Kitfem4 from './pages/kitfem/Kitfem4';
 import Informate from './components/informate/formseries';
+import Oportunidades from './pages/oportunidades/Oportunidades';
+import Lineas from './pages/redes/lineas/Lineas';
+import Asociados from './pages/redes/asociados/Asociados';
+import Asociados1 from './pages/redes/asociados/Asociados1';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -37,6 +41,10 @@ root.render(
         <Route path='/kitfem3' element={<Kitfem3/>}></Route>
         <Route path='/kitfem4' element={<Kitfem4/>}></Route>
         <Route path='/kitfem/informate' element={<Informate/>}></Route>
+        <Route path='/oportunidades' element={<Oportunidades/>}></Route>
+        <Route path='/lineas' element={<Lineas/>}></Route>
+        <Route path='/asociados' element={<Asociados/>}></Route>
+        <Route path='/asociados1' element={<Asociados1/>}></Route>
       </Routes>
       </BrowserRouter>
   </React.StrictMode>
