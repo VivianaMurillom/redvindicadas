@@ -14,9 +14,7 @@ function FormAsociado(){
     const [mensaje, cambiarMensaje] = useState({campo: '', valido: null});
 	const [terminos,cambiarTerminos]= useState(false);
 	const [formularioValido,cambiarFormularioValido]= useState(null); 
-    const [ isOpenForm, setIsOpenForm ] =useState(false); 
-    const closeForm=()=>{
-        setIsOpenForm (false);}
+   
 
   const expresiones = {
         nombre: /^[a-zA-Z0-9_-]{4,16}$/, // Letras, numeros, guion y guion_bajo
@@ -130,10 +128,10 @@ const onSubmit = (e) => {
  
         </MensajeError>}
         <ContenedorBotonCentrado>
-            <Boton type="submit">Enviar</Boton>
+            <Boton type="submit" className='button-asociados'>Enviar</Boton>
 		    {formularioValido === true && <MensajeExito>Formulario enviado exitosamente!</MensajeExito>}
         </ContenedorBotonCentrado>
-        <div className="cerrar-btn"><button><Link to ={{
+        <div className="cerrar-btn-form"><button className='cerrar-btn-form'><Link to ={{
             pathname:"/asociados1"
         }
         }>Cerrar</Link></button></div>

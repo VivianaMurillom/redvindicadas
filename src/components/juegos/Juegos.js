@@ -11,7 +11,7 @@ function JuegoComponent(p){
             <h2>{p.titulo} </h2>
             <p>{p.texto}</p>
             <div className="button-games">
-                <a className="button button-article" data-bs-toggle="modal" data-bs-target={`#id${p.id}`} >Ver más</a> 
+                <a className="button button-article" data-bs-toggle="modal" data-bs-target={`#id${p.id}`}>Ver más</a> 
             </div>
         </div>
         </div>

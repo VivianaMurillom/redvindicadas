@@ -49,7 +49,7 @@ function Informate({serie, setUplist, upList, handleOpen, setDataModal} ) {
   return(
         
     <Row  className="mx-auto">  
-    <Container className="container-card mx-auto">
+    <Container className="container-card mx-auto" >
             <Card style={{ width: '18rem' }}>
               <Card.Img variant="top" src={serie.img} style={{ height: '15rem' }}/>
               <Card.Body>
@@ -58,10 +58,11 @@ function Informate({serie, setUplist, upList, handleOpen, setDataModal} ) {
                     {serie.tipo}
                 </Card.Text>
                 </Card.Body>
-                <button className="button-verahora btn my-1 mx-3 mb-4" data-bs-toggle="modal" data-bs-target={`#id${serie.id}`} >Ver más</button> 
+                <div className='d-grid gap-2'>
+                <Button className="button-verahora btn my-1 mx-3 mb-4" data-bs-toggle="modal" data-bs-target={`#id${serie.id}`} >Ver más</Button> 
                 <Button className=" btn btn-form my-1 mx-3" onClick={handleEdit}>Editar</Button>
                 <Button className="btn btn-form-deleted my-1 mx-3 mb-3" onClick={handleDelete}> Eliminar</Button>
-            
+                </div>
             </Card>
         
     <ModalJuegos

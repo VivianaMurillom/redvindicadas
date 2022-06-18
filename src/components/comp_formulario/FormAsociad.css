@@ -12,8 +12,23 @@
     margin:30px auto;
     
 }
-.cerrar-btn a {
+.visibilidad-asociados p {
+    text-align: center;
+}
+.cerrar-btn-form button{
+    color: white;
+    background: #c75c7ebc;
+    border: 2px solid #C75C7E;
+    border-radius: 10px;   
+    margin-top: 5%;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 5px 5px;
+}
+.cerrar-btn-form a {
+    color: white;
     text-decoration: none;
+    font-size: 14px;
 }
 .body-form h1{
     padding: 10px;
@@ -57,14 +72,15 @@ label{
     padding: 10px;
 }
 
-.body-form button{
+.button-asociados{
     color: white;
     background: #C75C7E;
     border: 2px solid #C75C7E;
     border-radius: 10px;   
-    padding: 5px 10px; 
-    font-size: 15px;
+    padding: 10px 10px; 
     cursor: pointer;
+    margin-top: 5%;
+    width: 200px;
 }
 .body-form button:hover {
     color: white;

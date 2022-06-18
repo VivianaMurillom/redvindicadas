@@ -1,5 +1,6 @@
 .arengastext p {
-    width: 80%;
+    width: 100%;
+    text-align: center;
 }
 .content-kit-left img{
     width: 50%;

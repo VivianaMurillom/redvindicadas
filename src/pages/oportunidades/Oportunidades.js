@@ -48,12 +48,7 @@ function Oportunidades(){
             <h2>
                 {estudio.beca}
             </h2>
-            <h2>
-                {estudio.inst}
-            </h2>
-            <h3>
-                {estudio.fecha}
-            </h3>
+            
             <p>
                 {estudio.acerca}
             </p>
@@ -98,12 +93,6 @@ function Oportunidades(){
             <h2>
                 {cur.beca}
             </h2>
-            <h2>
-                {cur.inst}
-            </h2>
-            <h3>
-                {cur.fecha}
-            </h3>
             <p>
                 {cur.acerca}
             </p>
