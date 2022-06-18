@@ -17,6 +17,11 @@ a{
 	align-items: center;
 	justify-content: space-around;
 }
+
+.unit-nav-1 p, .unit-nav-2 p, .unit-nav-3 p{
+	text-align: center;
+}
+
 .unit-nav-1{
 	width:30%;
 }

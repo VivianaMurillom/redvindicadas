@@ -14,6 +14,11 @@
     border-radius: 10px;
     margin: 10px ;
 }
+
+.card-border-src p{
+    text-align: center;
+}
+
 .card-src{
     height: 215px;
     margin:5px;
@@ -100,6 +105,12 @@ iframe{
     }
     .card-border-src{
         margin: 10px 5px;
+        min-height: 250px;
+        height: 100%
+    }
+
+    .card-src{
+        min-height: 240px;
     }
 }
 @media screen and (min-width:1024px) {
@@ -111,9 +122,17 @@ iframe{
         margin:0 20px;
     }
 }
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1024px) {
     .container{
         margin:0 100px;
+    }
+
+    .card-border-src{
+        height: 300px;
+    }
+
+    .card-src{
+        height: 290px;
     }
 }
 

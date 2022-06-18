@@ -7,11 +7,11 @@
 }
 
 .todo-contenido{
-    min-height: 350px;
+    min-height: 400px;
 }
 
 .imagen-fondo{
-    min-height: 300px;
+    min-height: 380px;
 }
 
 .calendario-background{
@@ -61,11 +61,11 @@
     }
 
     .todo-contenido{
-        min-height: 410px;
+        min-height: 400px;
     }
     
     .imagen-fondo{
-        min-height: 360px;
+        min-height: 380px;
     }
 
     .calendario-background{
@@ -92,4 +92,15 @@
         display: initial;
         font-size: 14px;
     }
+}
+
+/*Resolución de tablet*/
+@media screen and (min-width: 768px) {
+    /* .todo-contenido{
+        min-height: 520px;
+    }
+    
+    .imagen-fondo{
+        min-height: 490px;
+    } */
 }

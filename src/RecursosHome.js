@@ -13,7 +13,7 @@ let calendario=[
         "mes":"Febrero",
         "imagen":"https://image.pbs.org/bento3-prod/wned/WNED%20Productions/Discovering%20New%20York%20Suffrage%20Stories/Archive%20Photos/Paulina_Wright_Davis/1191c6c8ad_PD001_M_FIXED_original.jpg?resize=1280x,no-scale-up",
         "nombre":"Paulina Kellogg Wright Davis",
-        "descripcion":"En 1853 se estrenó The Una. Editado por Paulina Kellogg Wright Davis, es reconocido como el primer periódico feminista del movimiento por los derechos de la mujer.",
+        "descripcion":"En 1853 se estrenó The Una. Editado por Paulina Kellogg Wright Davis, es reconocido como el primer periódico feminista.",
         "invitacion":"https://todayinwomenshistory.org/february"
     },
     {
@@ -45,7 +45,7 @@ let calendario=[
         "mes":"Junio",
         "imagen":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/gettyimages-143481862-1527813488.jpg?resize=980:*",
         "nombre":"Connie Chung",
-        "descripcion":"El primero de junio en 1993, Connie Chung se convirtió en la segunda mujer en copresentar las noticias de la noche, 17 años después de que Barbara Walters fuera la primera en 1976. También fue la primera asiática en copresentar las noticias nacionales de una cadena importante.",
+        "descripcion":"El primero de junio en 1993, Connie Chung se convirtió en la segunda mujer en copresentar las noticias de la noche, 17 años después de que Barbara Walters fuera la primera en 1976.",
         "invitacion":"https://todayinwomenshistory.org/june"
     },
     {
@@ -61,7 +61,7 @@ let calendario=[
         "mes":"Agosto",
         "imagen":"https://images.squarespace-cdn.com/content/v1/56df9b64555986dd8cc79dbb/1578092947560-3YVFBYSBL8QTAL2SYSLH/07.jpg?format=500w",
         "nombre":"Beatrice Medicine",
-        "descripcion":"Beatrice Medicine, antropóloga de los Sioux de Standing Rock, nació el primero de agosto en 1923. Se centró en el papel de las mujeres lakotas en los cambios que afrontaban sus culturas en ámbitos como la educación bilingüe, el consumo de alcohol y drogas, los abusos, la socialización de los niños y las necesidades de identidad.",
+        "descripcion":"Beatrice Medicine, antropóloga de los Sioux de Standing Rock, nació el primero de agosto en 1923. Se centró en el papel de las mujeres lakotas en los diferentes cambios que afrontaban sus culturas.",
         "invitacion":"https://todayinwomenshistory.org/august"
     },
     {
