@@ -48,8 +48,7 @@ function NavGeneral(){
                         <div className="card">
                             <img className="img-card" src={dados} alt=""/>
                                 <h2 className="h2">Juegos</h2>
-                                <Link to="/redvindicadas/juegayaprende/jovenes-juegos"><img className="icondescarga" src={downloads} alt=""/>                                <a href="/redvindicadas/juegayaprende/juegos-j"><img className="icondescarga" src={downloads} alt=""/></a></Link>
-
+                                <Link to="/redvindicadas/juegayaprende/jovenes-juegos"><img className="icondescarga" src={downloads} alt=""/></Link>
                         </div>
                     </div>
                 </div>
