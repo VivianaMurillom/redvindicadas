@@ -33,10 +33,10 @@ root.render(
         <Route path='/redvindicadas/juegayaprende' element={<Juegayaprende/>}></Route>
         <Route path='/redvindicadas/juegayaprende/recursos-adultos' element={<RecursoAdult/>}></Route>
         <Route path='/redvindicadas/juegayaprende/juegos-adultos' element={<JuegoAdult/>}></Route>
-        <Route path='/redvindicadas/juegayaprende/recursos-j1' element={<Jovenes1/>}></Route>
-        <Route path='/redvindicadas/juegayaprende/recursos-j2' element={<Jovenes2/>}></Route>
-        <Route path='/redvindicadas/juegayaprende/recursos-j3' element={<Jovenes3/>}></Route>
-        <Route path='/redvindicadas/juegayaprende/juegos-j' element={<JovenesJuegos/>}></Route>
+        <Route path='/redvindicadas/juegayaprende/jovenes-recursos1' element={<Jovenes1/>}></Route>
+        <Route path='/redvindicadas/juegayaprende/jovenes-recursos2' element={<Jovenes2/>}></Route>
+        <Route path='/redvindicadas/juegayaprende/jovenes-recursos3' element={<Jovenes3/>}></Route>
+        <Route path='/redvindicadas/juegayaprende/jovenes-juegos' element={<JovenesJuegos/>}></Route>
         <Route path='/redvindicadas/kitfem' element={<Kitfem/>}></Route>
         <Route path='/redvindicadas/kitfem2' element={<Kitfem2/>}></Route>
         <Route path='/redvindicadas/kitfem3' element={<Kitfem3/>}></Route>
