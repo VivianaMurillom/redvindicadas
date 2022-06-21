@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/redvindicadas/static/css/main.f0f6915c.css",
-    "main.js": "/redvindicadas/static/js/main.025c5b69.js",
+    "main.js": "/redvindicadas/static/js/main.4a8f3169.js",
     "static/media/bannner.svg": "/redvindicadas/static/media/bannner.0a52e200388a09fe74c9.svg",
     "static/media/adul-background.svg": "/redvindicadas/static/media/adul-background.5845534f388a13755079.svg",
     "static/media/img-pantalla-inicial.svg": "/redvindicadas/static/media/img-pantalla-inicial.94cba49548e5036e2d1a.svg",
@@ -58,10 +58,10 @@
     "static/media/redflag.svg": "/redvindicadas/static/media/redflag.f4fdd61d8cc5239e1cf8.svg",
     "static/media/adul-linea.svg": "/redvindicadas/static/media/adul-linea.d5e1c572c59581d45d9da05aea5bb783.svg",
     "main.f0f6915c.css.map": "/redvindicadas/static/css/main.f0f6915c.css.map",
-    "main.025c5b69.js.map": "/redvindicadas/static/js/main.025c5b69.js.map"
+    "main.4a8f3169.js.map": "/redvindicadas/static/js/main.4a8f3169.js.map"
   },
   "entrypoints": [
     "static/css/main.f0f6915c.css",
-    "static/js/main.025c5b69.js"
+    "static/js/main.4a8f3169.js"
   ]
 }
