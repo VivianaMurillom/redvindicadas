@@ -12,12 +12,12 @@ function NavAdult(){
             <div className="barnav-recursosyjuegos">
                     <div className="barnav-interna">
                         <img className="img-menu" src={libro} alt=""/>
-                        <Link className="button-adult" to="/juegayaprende/recursos-adultos">Recursos</Link>
+                        <Link className="button-adult" to="/redvindicadas/juegayaprende/recursos-adultos">Recursos</Link>
                     </div>
                 <img className="imglinea-nav" src={linea} alt=""/>
                     <div className="barnav-interna">
                             <img className="img-menu" src={rompecabeza} alt=""/>
-                            <Link className="desactive" to="/juegayaprende/juegos-adultos">Juegos</Link>
+                            <Link className="desactive" to="/redvindicadas/juegayaprende/juegos-adultos">Juegos</Link>
                     </div>
             </div>
         </div>

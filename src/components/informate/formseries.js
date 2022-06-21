@@ -1,4 +1,4 @@
-import {Container, Form} from "react-bootstrap"
+import {Form} from "react-bootstrap"
 import axios from "axios"
 import Swal from "sweetalert2"
 import {useState} from "react"
@@ -26,7 +26,7 @@ function FormSeries(){
                 se ha sido guardado exitosamente!`,
                     'success'
             )
-                Navigate("/kitfem3");
+                Navigate("/redvindicadas/kitfem3");
         }else{
             Swal.fire(
                 'Error!',

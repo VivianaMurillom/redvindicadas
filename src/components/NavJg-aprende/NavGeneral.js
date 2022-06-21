@@ -19,7 +19,7 @@ function NavGeneral(){
                         <div className="card">
                             <img className="img-card" src={libro} alt="" />
                             <h2 className="h2">Recursos</h2>
-                            <Link to="/juegayaprende/recursos-adultos"><img className="icondescarga" src={downloads} alt=""/></Link>
+                            <Link to="/redvindicadas/juegayaprende/recursos-adultos"><img className="icondescarga" src={downloads} alt=""/></Link>
                         </div>
                     </div>
 
@@ -27,7 +27,7 @@ function NavGeneral(){
                         <div className="card">
                             <img className="img-card" src={rompecabeza} alt="" />
                             <h2 className="h2">Juegos</h2>
-                            <Link to="/juegayaprende/juegos-adultos"><img className="icondescarga" src={downloads} alt=""/></Link>
+                            <Link to="/redvindicadas/juegayaprende/juegos-adultos"><img className="icondescarga" src={downloads} alt=""/></Link>
                         </div>
                     </div>
                 </div>
@@ -41,14 +41,14 @@ function NavGeneral(){
                         <div className="card">
                             <img className="img-card" src={compu} alt=""/>
                                 <h2 className="h2">Recursos</h2>
-                                <a href="/juegayaprende/recursos-jovenes1"><img className="icondescarga" src={downloads} alt=""/></a>
+                                <a href="/redvindicadas/juegayaprende/recursos-jovenes1"><img className="icondescarga" src={downloads} alt=""/></a>
                         </div>
                     </div>
                     <div className="card-border">
                         <div className="card">
                             <img className="img-card" src={dados} alt=""/>
                                 <h2 className="h2">Juegos</h2>
-                                <a href="/juegayaprende/juegos-jovenes"><img className="icondescarga" src={downloads} alt=""/></a>
+                                <a href="/redvindicadas/juegayaprende/juegos-jovenes"><img className="icondescarga" src={downloads} alt=""/></a>
                         </div>
                     </div>
                 </div>

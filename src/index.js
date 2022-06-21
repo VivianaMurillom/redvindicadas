@@ -21,30 +21,32 @@ import Oportunidades from './pages/oportunidades/Oportunidades';
 import Lineas from './pages/redes/lineas/Lineas';
 import Asociados from './pages/redes/asociados/Asociados';
 import Asociados1 from './pages/redes/asociados/Asociados1';
+import Error404 from './pages/error404/Error404';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Home/>}></Route>
-        <Route path='/inicio' element={<Inicio/>}></Route>
-        <Route path='/juegayaprende' element={<Juegayaprende/>}></Route>
-        <Route path='/juegayaprende/recursos-adultos' element={<RecursoAdult/>}></Route>
-        <Route path='/juegayaprende/juegos-adultos' element={<JuegoAdult/>}></Route>
-        <Route path='/juegayaprende/recursos-jovenes1' element={<Jovenes1/>}></Route>
-        <Route path='/juegayaprende/recursos-jovenes2' element={<Jovenes2/>}></Route>
-        <Route path='/juegayaprende/recursos-jovenes3' element={<Jovenes3/>}></Route>
-        <Route path='/juegayaprende/juegos-jovenes' element={<JovenesJuegos/>}></Route>
-        <Route path='/kitfem' element={<Kitfem/>}></Route>
-        <Route path='/kitfem2' element={<Kitfem2/>}></Route>
-        <Route path='/kitfem3' element={<Kitfem3/>}></Route>
-        <Route path='/kitfem4' element={<Kitfem4/>}></Route>
-        <Route path='/kitfem/informate' element={<Informate/>}></Route>
-        <Route path='/oportunidades' element={<Oportunidades/>}></Route>
-        <Route path='/lineas' element={<Lineas/>}></Route>
-        <Route path='/asociados' element={<Asociados/>}></Route>
-        <Route path='/asociados1' element={<Asociados1/>}></Route>
+        <Route path='/redvindicadas/' element={<Home/>}></Route>
+        <Route path='/redvindicadas/inicio' element={<Inicio/>}></Route>
+        <Route path='/redvindicadas/juegayaprende' element={<Juegayaprende/>}></Route>
+        <Route path='/redvindicadas/juegayaprende/recursos-adultos' element={<RecursoAdult/>}></Route>
+        <Route path='/redvindicadas/juegayaprende/juegos-adultos' element={<JuegoAdult/>}></Route>
+        <Route path='/redvindicadas/juegayaprende/recursos-jovenes1' element={<Jovenes1/>}></Route>
+        <Route path='/redvindicadas/juegayaprende/recursos-jovenes2' element={<Jovenes2/>}></Route>
+        <Route path='/redvindicadas/juegayaprende/recursos-jovenes3' element={<Jovenes3/>}></Route>
+        <Route path='/redvindicadas/juegayaprende/juegos-jovenes' element={<JovenesJuegos/>}></Route>
+        <Route path='/redvindicadas/kitfem' element={<Kitfem/>}></Route>
+        <Route path='/redvindicadas/kitfem2' element={<Kitfem2/>}></Route>
+        <Route path='/redvindicadas/kitfem3' element={<Kitfem3/>}></Route>
+        <Route path='/redvindicadas/kitfem4' element={<Kitfem4/>}></Route>
+        <Route path='/redvindicadas/kitfem/informate' element={<Informate/>}></Route>
+        <Route path='/redvindicadas/oportunidades' element={<Oportunidades/>}></Route>
+        <Route path='/redvindicadas/lineas' element={<Lineas/>}></Route>
+        <Route path='/redvindicadas/asociados' element={<Asociados/>}></Route>
+        <Route path='/redvindicadas/asociados1' element={<Asociados1/>}></Route>
+        <Route path='*' element={<Error404/>}></Route>
       </Routes>
       </BrowserRouter>
   </React.StrictMode>
