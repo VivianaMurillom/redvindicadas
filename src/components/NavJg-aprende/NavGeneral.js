@@ -41,14 +41,14 @@ function NavGeneral(){
                         <div className="card">
                             <img className="img-card" src={compu} alt=""/>
                                 <h2 className="h2">Recursos</h2>
-                                <a href="/redvindicadas/juegayaprende/recursos-jovenes1"><img className="icondescarga" src={downloads} alt=""/></a>
+                                <a href="/redvindicadas/juegayaprende/recursos-j1"><img className="icondescarga" src={downloads} alt=""/></a>
                         </div>
                     </div>
                     <div className="card-border">
                         <div className="card">
                             <img className="img-card" src={dados} alt=""/>
                                 <h2 className="h2">Juegos</h2>
-                                <a href="/redvindicadas/juegayaprende/juegos-jovenes"><img className="icondescarga" src={downloads} alt=""/></a>
+                                <a href="/redvindicadas/juegayaprende/juegos-j"><img className="icondescarga" src={downloads} alt=""/></a>
                         </div>
                     </div>
                 </div>

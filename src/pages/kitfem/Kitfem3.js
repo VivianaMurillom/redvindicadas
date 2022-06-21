@@ -15,7 +15,7 @@ function Kitfem3() {
         <Bannerkitfem/>
         <Menukitfem/>
         <div className="d-flex justify-content-center m-3">
-        <Link to="/kitfem/informate" className="btn btn-form mx-auto">Nueva serie o película</Link>
+        <Link to="/redvindicadas/kitfem/informate" className="btn btn-form mx-auto">Nueva serie o película</Link>
         </div>
         <ListInformate/> 
        <Container>
